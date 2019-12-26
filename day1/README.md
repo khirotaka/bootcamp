@@ -88,6 +88,6 @@ jetson@jetson:~$ cat dl.txt
 
 うん、非常に見にくい。次に、このファイルの中から特定の文字列を探してみよう。
 ```sh
-jetson@jetson:~$ grep hello dl.txt
+jetson@jetson:~$ grep we dl.txt
 ```
 
