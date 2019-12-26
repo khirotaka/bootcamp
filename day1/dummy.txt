@@ -1,0 +1,8 @@
+Hello, world!'
+Or we can instruct (the call) signal handlers to ignore their messages and only change the method we're currently performing if a changed message arrives:
+To do so, we'll start with the controllers.
+The call to send() sends a message with its identifier and method to the remaining controllers and the routes will be modified accordingly.
+As with the other routes, these handlers are called with the handleMessage argument:
+We can now add the handlers to the view:
+This file is too long to show here, but the most important part of the work is done here: the new dispatchDispatch() function.
+The construct() function was not necessary here, but I had the feeling that there were some parts of our application that were waiting for some controller action
