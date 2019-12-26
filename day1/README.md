@@ -82,7 +82,7 @@ int main(void) {
 まず、 `curl` 単体でファイルをダウンロードしてみよう。
 
 ```sh
-jetson@jetson:~$ curl .... > dl.txt
+jetson@jetson:~$ curl https://raw.githubusercontent.com/khirotaka/bootcamp/master/day1/dummy.txt > dl.txt
 jetson@jetson:~$ cat dl.txt
 ```
 
