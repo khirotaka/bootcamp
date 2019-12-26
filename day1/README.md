@@ -91,3 +91,4 @@ jetson@jetson:~$ cat dl.txt
 jetson@jetson:~$ grep we dl.txt
 ```
 
+これで該当する箇所だけをピックアップすることが出来た。
